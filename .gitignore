@@ -1,0 +1,50 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs, caches, and temporary files
+*.log
+logs/
+.cache/
+.tmp/
+tmp/
+temp/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test coverage and build output
+coverage/
+.coverage
+htmlcov/
+dist/
+build/
+out/
+target/
+
